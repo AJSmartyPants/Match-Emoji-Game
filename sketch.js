@@ -52,7 +52,7 @@ function setup() {
   picbutton.style('border-radius: 10px');
   
   nextlev = createButton("Next Emoji");
-  nextlev.position(width-120, height/1.5);
+  nextlev.position(width-(width/3), height/1.5);
   nextlev.size(width/3, height/10);
   nextlev.style('background-color: #5400e6');
   nextlev.style('color: #beff19');

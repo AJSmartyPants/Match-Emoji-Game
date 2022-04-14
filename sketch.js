@@ -43,7 +43,7 @@ function setup() {
   //Make and style the picture taking button
   picbutton = createButton("Take a Picture");
   picbutton.position(0, height/1.5);
-  picbutton.size(120, 100);
+  picbutton.size(width/3, height/10);
   picbutton.style('background-color: #6bffff');
   picbutton.style('color: #9900ff');
   picbutton.style('font-family: Cookie');
@@ -53,12 +53,12 @@ function setup() {
   
   nextlev = createButton("Next Emoji");
   nextlev.position(width-120, height/1.5);
-  nextlev.size(120, 100);
+  nextlev.size(width/3, height/10);
   nextlev.style('background-color: #5400e6');
   nextlev.style('color: #beff19');
   nextlev.style('font-family: Cookie');
   nextlev.style('text-shadow: 1px 1px 1px');
-  nextlev.style('font-size: 45px');
+  nextlev.style('font-size: 100px');
   nextlev.style('border-radius: 10px');
   
   //tut.play();
@@ -83,13 +83,13 @@ function draw() {
   //nextlev.mousePressed(speak);
   
   // STEP 4: Draw the label
-  textSize((width*height)/16000);
+  textSize(width/20);
   textAlign(CENTER, CENTER);
   textFont('Passero One');
   fill('#ffff61');
   text(label, width / 2, height - height/1.3);
   
-  textSize((width*height)/16000);
+  textSize(width/15);
   textFont('Montserrat Alternates')
   fill('#00ff04');
   text(title, width/2.1, height/20);

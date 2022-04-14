@@ -142,7 +142,7 @@ function gotResults(error, results) {
           label = "Um, for some reason you look " + percent + "% " + resultres + "...";
         }
   } else if (emoji == "😱") {
-    if (resultres == "Surprise") {
+    if (resultres == "Surprised") {
           if (percent <= 50) {
             label = "Uh oh! You only got " + percent + "% accuracy...";
           } else{

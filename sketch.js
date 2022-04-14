@@ -48,7 +48,7 @@ function setup() {
   picbutton.style('color: #9900ff');
   picbutton.style('font-family: Cookie');
   picbutton.style('text-shadow: 1px 1px 1px');
-  picbutton.style('font-size: 45px');
+  picbutton.style('font-size: 100px');
   picbutton.style('border-radius: 10px');
   
   nextlev = createButton("Next Emoji");
@@ -83,7 +83,7 @@ function draw() {
   //nextlev.mousePressed(speak);
   
   // STEP 4: Draw the label
-  textSize(width/20);
+  textSize(width/30);
   textAlign(CENTER, CENTER);
   textFont('Passero One');
   fill('#ffff61');
@@ -94,7 +94,7 @@ function draw() {
   fill('#00ff04');
   text(title, width/2.1, height/20);
   fill('#FF9700');
-  textSize((width*height)/21000);
+  textSize(width/30);
   text(instr, width/2.1, height/10);
   text(instr1, width/2.1, height/8);
   text(instr2, width/2.1, height/6.5);

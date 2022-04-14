@@ -89,7 +89,7 @@ function draw() {
   fill('#ffff61');
   text(label, width / 2, height - height/1.3);
   
-  textSize(width/15);
+  textSize(width/23);
   textFont('Montserrat Alternates')
   fill('#00ff04');
   text(title, width/2.1, height/20);
